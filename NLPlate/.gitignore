@@ -1,0 +1,15 @@
+# Podaci (preveliki / generisani)
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
+!data/raw/README.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Izvestaji se mogu zadrzati, ali ne i privremeni fajlovi
+reports/*.png
